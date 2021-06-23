@@ -1,4 +1,4 @@
-#Tue Jun 22 15:48:37 BRT 2021
-base.0=/Users/swadev/Documents/studies/nlw/nlw_app/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Wed Jun 23 11:36:52 BRT 2021
+base.0=/Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
