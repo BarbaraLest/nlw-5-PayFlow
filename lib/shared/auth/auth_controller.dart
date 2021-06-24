@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:nlw_app/modules/home/home_page.dart';
-import 'package:nlw_app/modules/login/login_page.dart';
 import 'package:nlw_app/shared/models/user_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -13,6 +11,7 @@ class AuthController {
 
   void setUser(BuildContext context, UserModel user) {
     if (user != null) {
+      saveUser(user);
       _user = user;
       _isAuthenticated = true;
       Navigator.pushReplacementNamed(context, "/home");
@@ -29,8 +28,13 @@ class AuthController {
 
   Future<void> currentUser(BuildContext context) async {
     final instance = await SharedPreferences.getInstance();
-    final user = await instance.get("user") as String;
-    setUser(context, user);
+    await Future.delayed(Duration(seconds: 2));
+   if(instance.containsKey("user")){
+      final json = await instance.get("user") as String;
+    setUser(context, UserModel.fromJson(json));
     return;
+   }else {
+     setUser(context, null);
+   }
   }
 }

@@ -6,6 +6,7 @@ INJECTED from /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/android/
 INJECTED from /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/android/app/src/main/AndroidManifest.xml:1:1-47:12
 MERGED from /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/android/app/src/main/AndroidManifest.xml:1:1-47:12
 MERGED from [:firebase_core] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:shared_preferences] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:google_sign_in] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/swadev/.gradle/caches/transforms-2/files-2.1/50040abb16b0a5145edc51e5fa2cf270/firebase-analytics-19.0.0/AndroidManifest.xml:2:1-9:12
@@ -156,6 +157,8 @@ INJECTED from /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/android/
 INJECTED from /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/android/app/src/main/AndroidManifest.xml
 MERGED from [:firebase_core] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] /Users/swadev/Documents/studies/nlw/nlw_app/nlw-5-PayFlow/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
