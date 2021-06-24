@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:nlw_app/modules/login/login_page.dart';
 import 'package:nlw_app/modules/splash/splash_page.dart';
+import 'package:nlw_app/shared/app_widget.dart';
 
 import 'shared/themes/app_colors.dart';
 
@@ -30,6 +31,8 @@ class _AppFirebaseState extends State<AppFirebase> {
               ),
             ),
           );
+        } else if(snapshot.connectionState == ConnectionState.done){
+            return AppWidget();
         } else {
           return Material(
             child: Center(
